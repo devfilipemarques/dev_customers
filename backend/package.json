@@ -1,17 +1,22 @@
 {
-  "name": "dev_customers_back",
+  "name": "start",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Filipe",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
     "mssql": "^9.0.1",
     "sequelize": "^6.21.4"
-  }
+  },
+  "devDependencies": {
+    "express": "^4.18.1",
+    "mssql": "^9.0.1",
+    "sequelize": "^6.21.4"
+  },
+  "description": ""
 }

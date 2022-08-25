@@ -1,8 +1,8 @@
 const sequelize = require("sequelize");
 
-const database = new sequelize("dev_customer", "dev_customer", "dev_customer", {
+const database = new sequelize("devcustomer2", "devcustomer2", "devcustomer2", {
   dialect: "mssql",
-  host: "localhost",
+  host: "devcustomer2.cgpitotysboy.us-east-1.rds.amazonaws.com",
   port: 1433,
 });
 

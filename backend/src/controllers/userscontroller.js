@@ -1,7 +1,7 @@
 const ModelUsers = require("../models/users");
 
 module.exports = {
-  async List(req, res) {
+  async List(res) {
     try {
       const users = await ModelUsers.findAll();
       return res.json(users);
