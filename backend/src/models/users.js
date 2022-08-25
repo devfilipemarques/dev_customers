@@ -1,5 +1,6 @@
 const sequelize = require("sequelize");
-const database = require("../db");
+
+const db = require("../db");
 const schema = "";
 
 class Users extends sequelize.Model {}
@@ -26,7 +27,7 @@ Users.init(
     },
   },
   {
-    sequelize: database,
+    sequelize: db,
     modelName: "dev_user",
     schema,
   }
